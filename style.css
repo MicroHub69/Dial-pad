@@ -1,0 +1,47 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    background-image:url(images/kitera-dent-Ma9DSE2_kYc-unsplash.jpg);
+}
+.container {
+    background-color: white;
+    width: 320px;
+    padding: 10px;
+    margin: 150px auto;
+    height: 420px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#output {
+    height: 60px;
+    
+}
+
+.row {
+    margin: 0 auto;
+    width: 280px;
+    /* clear: both; */
+    text-align: center;
+    font-family: 'Exo';
+}
+
+.digit{
+    float: left;
+    padding: 10px 30px;
+    width: 30px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sub {
+    font-size: 15px;
+    color: grey;
+}
+
+.digit:hover{
+    background-color: #f0dfdf;
+}
+
+
