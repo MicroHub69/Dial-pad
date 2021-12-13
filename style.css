@@ -1,48 +1,118 @@
-body {
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 80vh;
-    background-image:url(images/kitera-dent-Ma9DSE2_kYc-unsplash.jpg);
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #133655;
+  --text-color: #fff;
 }
 .container {
-    background-color: white;
-    width: 320px;
-    padding: 10px;
-    margin: 150px auto;
-    height: 480px;
-    text-align: center;
-    border-radius: 5px;
+  height: auto;
+  padding: 20px 100px;
+  background-color: var(--primary-color);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 20px 0;
+  background-color: var(--primary-color);
+}
+nav h1 {
+  color: var(--text-color);
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+}
+.projects {
+  background-color: var(--text-color);
+  color: var(--primary-color);
+  border-radius: 50px;
+  height: 40px;
+  width: 150px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.profile_pic {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 2px solid var(--text-color);
 }
 
-#output {
-    height: 60px;
-    
+.link_me {
+  padding-right: 750px;
+  padding-bottom: 40px;
+  position: relative;
+  border-bottom-left-radius: 100px;
+  color: var(--text-color);
 }
-
-.row {
-    margin: 0 auto;
-    width: 280px;
-    /* clear: both; */
-    text-align: center;
-    font-family: 'Exo';
+.link_me h1 {
+  font-size: 45px;
+  line-height: 50px;
 }
-
-.digit{
-    float: left;
-    padding: 10px 30px;
-    width: 30px;
-    margin-bottom: 20px;
-    font-size: 2rem;
-    cursor: pointer;
+.link_me p {
+  margin: 20px 0 20px 0;
 }
-
-.sub {
-    font-size: 15px;
-    color: grey;
+form {
+  padding: 50px;
+  border-radius: 5px;
+  width: 40%;
+  position: absolute;
+  top: 150px;
+  right: 100px;
+  background-color: var(--text-color);
 }
-
-.digit:hover{
-    background-color: #f0dfdf;
+form input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
 }
-
-
+form textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 30px;
+  height: 145px;
+}
+form button {
+  width: 100%;
+  font-weight: 700;
+  color: var(--text-color);
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  background-color: var(--primary-color);
+  padding: 15px;
+}
+form p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.addon_box {
+  width: 30%;
+  padding-left: 100px;
+}
+.add_on h3 {
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+.add_on p {
+  font-size: 16px;
+}
+.add_on p span {
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: underline;
+}
