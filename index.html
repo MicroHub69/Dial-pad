@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Data Validation</title>
+    <title>Page Preloader</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,68 +14,71 @@
     />
   </head>
   <body>
-    <nav class="container">
-      <h1><img src="images/vimeo-icon.svg" alt="vimeo" />ictoria</h1>
+    <div class="load">0%</div>
+    <div class="all">
+      <nav class="container">
+        <h1><img src="images/vimeo-icon.svg" alt="vimeo" />ictoria</h1>
 
-      <ul>
-        <li class="projects">All Projects</li>
-        <li><img src="images/Ellipse 6.png" class="profile_pic" /></li>
-      </ul>
-    </nav>
+        <ul>
+          <li class="projects">All Projects</li>
+          <li><img src="images/Ellipse 6.png" class="profile_pic" /></li>
+        </ul>
+      </nav>
 
-    <section class="container link_me">
-      <p>CONTACT US</p>
-      <h1>
-        <i>Work on your Skills,</i>and don't let what you've learnt go outdated
-        before you learn another.
-      </h1>
-      <p>Send me a message and i will respond to you as soon as possible</p>
+      <section class="container link_me">
+        <p>CONTACT US</p>
+        <h1>
+          <i>Work on your Skills,</i>and don't let what you've learnt go
+          outdated before you learn another.
+        </h1>
+        <p>Send me a message and i will respond to you as soon as possible</p>
 
-      <h4>Follow me</h4>
-      <img src="images/instagram-fill.svg" alt="" />
-      <img src="images/bx_bxl-facebook.svg" alt="" />
-      <img src="images/twitter-svg.svg" alt="" />
-    </section>
+        <h4>Follow me</h4>
+        <img src="images/instagram-fill.svg" alt="" />
+        <img src="images/bx_bxl-facebook.svg" alt="" />
+        <img src="images/twitter-svg.svg" alt="" />
+      </section>
 
-    <form onsubmit="getMail(); reset(); return false">
-      <input type="text" placeholder="First Name" id="first-name" />
-      <input type="text" placeholder="Second Name" id="second-name" />
-      <input type="email" placeholder="Email" id="email" />
-      <input type="text" placeholder="Subject" id="subject" />
-      <input type="text" placeholder="Phone number" id="phone" />
-      <textarea name="" id="message" cols="30" rows="10"></textarea>
-      <button type="submit">Submit your message</button>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-        laboriosam eligendi accusamus fugit id dolores! Amet blanditiis quos
-        voluptates quidem, minus adipisci odio quod soluta consequatur
-        asperiores repellendus placeat voluptate?
-      </p>
-    </form>
-
-    <div class="addon_box">
-      <div class="add_on">
-        <h3>General Enquries</h3>
+      <form onsubmit="getMail(); reset(); return false">
+        <input type="text" placeholder="First Name" id="first-name" />
+        <input type="text" placeholder="Second Name" id="second-name" />
+        <input type="email" placeholder="Email" id="email" />
+        <input type="text" placeholder="Subject" id="subject" />
+        <input type="text" placeholder="Phone number" id="phone" />
+        <textarea name="" id="message" cols="30" rows="10"></textarea>
+        <button type="submit">Submit your message</button>
         <p>
-          You can also reach out directly to me with the email
-          <span>msodq2018@gmail.com</span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+          laboriosam eligendi accusamus fugit id dolores! Amet blanditiis quos
+          voluptates quidem, minus adipisci odio quod soluta consequatur
+          asperiores repellendus placeat voluptate?
         </p>
-      </div>
+      </form>
 
-      <div class="add_on">
-        <h3>Dedicated ?</h3>
-        <p>
-          You can also reach out directly to me with the email
-          <span>msodq2018@gmail.com</span>
-        </p>
-      </div>
+      <div class="addon_box">
+        <div class="add_on">
+          <h3>General Enquries</h3>
+          <p>
+            You can also reach out directly to me with the email
+            <span>msodq2018@gmail.com</span>
+          </p>
+        </div>
 
-      <div class="add_on">
-        <h3>Working Again ?</h3>
-        <p>
-          You can also reach out directly to me with the email
-          <span>msodq2018@gmail.com</span>
-        </p>
+        <div class="add_on">
+          <h3>Dedicated ?</h3>
+          <p>
+            You can also reach out directly to me with the email
+            <span>msodq2018@gmail.com</span>
+          </p>
+        </div>
+
+        <div class="add_on">
+          <h3>Working Again ?</h3>
+          <p>
+            You can also reach out directly to me with the email
+            <span>msodq2018@gmail.com</span>
+          </p>
+        </div>
       </div>
     </div>
 

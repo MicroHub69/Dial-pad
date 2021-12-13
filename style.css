@@ -11,6 +11,23 @@
   --primary-color: #133655;
   --text-color: #fff;
 }
+.all {
+  filter: blur(0px);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  font-size: 40px;
+  color: var(--text-color);
+  font-weight: 800;
+}
 .container {
   height: auto;
   padding: 20px 100px;
