@@ -4,85 +4,59 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Page Preloader</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Introduction to SASS</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="load">0%</div>
-    <div class="all">
-      <nav class="container">
-        <h1><img src="images/vimeo-icon.svg" alt="vimeo" />ictoria</h1>
+    <main>
+      <nav>
+        <h3>Washted.</h3>
 
         <ul>
-          <li class="projects">All Projects</li>
-          <li><img src="images/Ellipse 6.png" class="profile_pic" /></li>
+          <li class="op-1">Home</li>
+          <li>Work</li>
+          <li>Support</li>
         </ul>
+
+        <button>Contact Us</button>
       </nav>
 
-      <section class="container link_me">
-        <p>CONTACT US</p>
-        <h1>
-          <i>Work on your Skills,</i>and don't let what you've learnt go
-          outdated before you learn another.
-        </h1>
-        <p>Send me a message and i will respond to you as soon as possible</p>
-
-        <h4>Follow me</h4>
-        <img src="images/instagram-fill.svg" alt="" />
-        <img src="images/bx_bxl-facebook.svg" alt="" />
-        <img src="images/twitter-svg.svg" alt="" />
-      </section>
-
-      <form onsubmit="getMail(); reset(); return false">
-        <input type="text" placeholder="First Name" id="first-name" />
-        <input type="text" placeholder="Second Name" id="second-name" />
-        <input type="email" placeholder="Email" id="email" />
-        <input type="text" placeholder="Subject" id="subject" />
-        <input type="text" placeholder="Phone number" id="phone" />
-        <textarea name="" id="message" cols="30" rows="10"></textarea>
-        <button type="submit">Submit your message</button>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          laboriosam eligendi accusamus fugit id dolores! Amet blanditiis quos
-          voluptates quidem, minus adipisci odio quod soluta consequatur
-          asperiores repellendus placeat voluptate?
-        </p>
-      </form>
-
-      <div class="addon_box">
-        <div class="add_on">
-          <h3>General Enquries</h3>
+      <div class="banner">
+        <div class="txt-banner">
+          <h1>Clean cloth in an instant</h1>
           <p>
-            You can also reach out directly to me with the email
-            <span>msodq2018@gmail.com</span>
+            We will use all our strenght to shorten the time it takes for
+            laundry to take place
           </p>
+
+          <img
+            src="images/apple.png"
+            alt="this image happens to be apple store images"
+          />
+          <img src="images/google.png" alt="this google image" />
+
+          <div class="people">
+            <img src="images/Ellipse 3.png" alt="" />
+            <img src="images/Ellipse 9.png" alt="" class="lap-1" />
+            <img src="images/Ellipse 6.png" alt="" class="lap-2" />
+
+            <h4>
+              Happy Client <br />
+              <span>4.7 (2578)</span>
+            </h4>
+          </div>
         </div>
 
-        <div class="add_on">
-          <h3>Dedicated ?</h3>
-          <p>
-            You can also reach out directly to me with the email
-            <span>msodq2018@gmail.com</span>
-          </p>
-        </div>
-
-        <div class="add_on">
-          <h3>Working Again ?</h3>
-          <p>
-            You can also reach out directly to me with the email
-            <span>msodq2018@gmail.com</span>
-          </p>
+        <div class="pic-banner">
+          <img src="images/showcase.png" alt="" />
         </div>
       </div>
-    </div>
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
-    <script src="app.js"></script>
+    </main>
   </body>
 </html>
